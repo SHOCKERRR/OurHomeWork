@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Стили сайта -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Подключение api карты -->
+    <link rel="stylesheet" href="assets/css/leaflet.css"/>
+    <script src="assets/js/leaflet.js"></script>
+
+</head>
+<body>
+<!-- main section --> 
+<section id="main">
+
+    <div class="left">
+
+        <!-- buttons -->
+        <div class="buttons">
+            <button class="button my-value">Генерируем данные регистрации</button>
+                <span class="span my-value"></span>
+            <button class="button my-position">Получаем свою позицию</button>
+                <span class="span my-position"></span>
+            <button class="button add-friend">Генерируем такого же друга</button>
+                <span class="span add-friend"></span>
+            <button class="button find-friend">Получем позицию друга на карте</button>
+                <span class="span find-friend"></span>
+            <button class="button find-place">Подбираем место для встречи</button>
+                <span class="span find-place"></span>
+            <button class="button make-road">Строим маршрут к точке</button>
+                <span class="span make-road"></span>
+        </div>
+        <!-- buttons -->
+
+    </div>
+    
+    <div class="right">
+
+        <!-- map -->
+        <div id="map"></div>
+        <!-- map -->
+
+    </div>
+
+</section>
+<!-- main section -->
+
+
+<!-- Подключение api -->      
+<script src="assets/js/geo.js"></script>
+<!-- Обработчик кнопок -->
+<script src="assets/js/button.js"></script>
+</body>
+</html>
